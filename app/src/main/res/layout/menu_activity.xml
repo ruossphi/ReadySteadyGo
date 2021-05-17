@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_menu">
+
+    <Button
+        android:id="@+id/playGameBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_game_btn_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/playVsGameBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/play_vs_game_btn_text"
+        app:layout_constraintEnd_toEndOf="@+id/playGameBtn"
+        app:layout_constraintStart_toStartOf="@+id/playGameBtn"
+        app:layout_constraintTop_toBottomOf="@+id/playGameBtn" />
+
+    <Button
+        android:id="@+id/evaluationMenuBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/evaluation_game_btn_text"
+        app:layout_constraintEnd_toEndOf="@+id/playVsGameBtn"
+        app:layout_constraintStart_toStartOf="@+id/playVsGameBtn"
+        app:layout_constraintTop_toBottomOf="@+id/playVsGameBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>
