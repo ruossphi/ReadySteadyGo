@@ -8,6 +8,7 @@ public class Survey {
     private int answer3;
     private int answer4;
     private int answer5;
+    private String comment;
 
 
     public String getMonetization() {
@@ -56,5 +57,13 @@ public class Survey {
 
     public void setAnswer5(int answer5) {
         this.answer5 = answer5;
+    }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
     }
 }

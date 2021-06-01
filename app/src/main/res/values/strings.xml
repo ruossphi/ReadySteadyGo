@@ -2,22 +2,24 @@
     <string name="app_name">ReadySteadyGo</string>
 
     <!--Disclosure Screen -->
-    <string name="disclosure_title">Title</string>
-    <string name="disclosure_sub_title">This is the subtitle for the disclosure screen</string>
-    <string name="disclosure_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</string>
-    <string name="disclosure_button">Agree</string>
+    <string name="disclosure_title">Nutzungsvereinbarung</string>
+    <string name="disclosure_sub_title">Prototyp: Ready Steady Go</string>
+    <string name="disclosure_text">Diese Applikation wurde im Rahmen meiner Bachelorarbeit erarbeitet um die Kundenakzeptanz für die verschiedenen Monetarisierungsarten zu messen.
+Es handelt sich bei dieser App um ein Hyper Casual Game bei dem sich Spieler in ihrer Schnelligkeit messen können. Nach dem Spielen gibt es für die Nutzer eine Umfrage,
+in welcher die Erlebnisse mit mobile Games geteilt werden können. Ich bedanke mich für das entgegengebrachte Interesse und wünsche viel Spass mit Ready, Steady, Go!</string>
+    <string name="disclosure_button">Weiter</string>
 
 
     <!--Monetization Screen -->
-    <string name="monetization_title">Choose your monetization</string>
-    <string name="monetization_btn_one">Play as Premium App</string>
-    <string name="monetization_btn_two">Play with Ads</string>
-    <string name="monetization_btn_three">Play with Store</string>
+    <string name="monetization_title">Wähle eine Monetarisierungsart</string>
+    <string name="monetization_btn_one">Spiele als gekaufte App</string>
+    <string name="monetization_btn_two">Spiele mit Werbung</string>
+    <string name="monetization_btn_three">Spiele mit In-App-Shop</string>
 
     <!--Menu Game Screen -->
-    <string name="play_game_btn_text">Play vs AI</string>
+    <string name="play_game_btn_text">Spiele vs AI</string>
     <string name="play_vs_game_btn_text">Player vs Player</string>
-    <string name="evaluation_game_btn_text">Take survey</string>
+    <string name="evaluation_game_btn_text">An Umfrage teilnehmen</string>
 
     <!--Play Game Screen -->
     <string name="play_game_ready_text">Ready...</string>
@@ -31,23 +33,26 @@
 
     <!--Evaluation Screen -->
     <string name="evaluation_title_text">Evaluation</string>
-    <string name="evaluation_button_send_text">send</string>
-    <string name="evaluation_question_one">Question 1</string>
-    <string name="evaluation_question_two">Question 2</string>
-    <string name="evaluation_question_three">Question 3</string>
-    <string name="evaluation_question_four">Question 4</string>
-    <string name="evaluation_question_five">Question 5</string>
+    <string name="evaluation_sub_title_text">(1 = stimme überhaupt nicht zu, 5 = stimme stark zu)</string>
+    <string name="evaluation_button_send_text">senden</string>
+    <string name="evaluation_question_one">Ich bin bereit ein mobile Game für einen einmaligen Betrag zu kaufen</string>
+    <string name="evaluation_question_two">Man muss bezahlen, um mobile Games geniessen zu können</string>
+    <string name="evaluation_question_three">Freemium-Spiele versuchen Spieler mit Tricks dazu zu bewegen Geld auszugeben</string>
+    <string name="evaluation_question_four">In einem kostenlosen Spiel Geld für Premiumfunktionen zu bezahlen ist ein fairer Kompromiss</string>
+    <string name="evaluation_question_five">Ich mag es, dass Freemium-Spiele immer häufiger werden</string>
+    <string name="evaluation_comment">Zusätzlicher Kommentar (Optional)</string>
     <string name="evaluation_missing_field">Please fill out the complete survey</string>
     <string name="evaluation_feedback_success">Survey uploaded</string>
     <string name="evaluation_feedback_error">Survey could not be uploaded</string>
 
     <!--Monetization Screen -->
-    <string name="ad_title_text">Example Ad</string>
-    <string name="ad_sub_text">You can skip this screen after 8 seconds</string>
-    <string name="ad_skip_btn_text">skip</string>
+    <string name="ad_title_text">Beispiel Werbung</string>
+    <string name="ad_sub_text">Du kannst nach 8 Sekunden die Werbung überspringen</string>
+    <string name="ad_skip_btn_text">überspringen</string>
 
-    <string name="store_title_text">In-App Store</string>
-    <string name="store_back_btn_text">Back</string>
+    <string name="store_title_text">In-App-Store</string>
+    <string name="store_watch_ad_text">Werbung</string>
+    <string name="store_back_btn_text">zurück</string>
 
 
 </resources>

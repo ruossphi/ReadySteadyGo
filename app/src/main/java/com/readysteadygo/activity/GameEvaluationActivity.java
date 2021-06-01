@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.RatingBar;
 import android.widget.Toast;
 
@@ -24,6 +25,7 @@ public class GameEvaluationActivity extends Activity implements View.OnClickList
     private RatingBar ratingBarThree;
     private RatingBar ratingBarFour;
     private RatingBar ratingBarFive;
+    private EditText comment;
     private SharedPreferences prefs;
     private Survey survey;
 
@@ -41,6 +43,7 @@ public class GameEvaluationActivity extends Activity implements View.OnClickList
         ratingBarThree = findViewById(R.id.ratingBar3);
         ratingBarFour = findViewById(R.id.ratingBar4);
         ratingBarFive = findViewById(R.id.ratingBar5);
+        comment = findViewById(R.id.commentEditText);
     }
 
     public boolean checkAreAllRatingBarsSet(){
@@ -54,6 +57,7 @@ public class GameEvaluationActivity extends Activity implements View.OnClickList
             survey.setAnswer3((int) (ratingBarThree.getRating() * 20.0));
             survey.setAnswer4((int) (ratingBarFour.getRating() * 20.0));
             survey.setAnswer5((int) (ratingBarFive.getRating() * 20.0));
+            survey.setComment(comment.getText().toString());
 
             return true;
         }else return false;

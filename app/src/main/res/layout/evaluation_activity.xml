@@ -8,8 +8,9 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="381dp">
+        android:layout_margin="4dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,11 +22,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
-                android:layout_marginBottom="32dp"
+                android:layout_marginBottom="24dp"
                 android:text="@string/evaluation_title_text"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="@string/evaluation_sub_title_text"
+                android:textColor="#000000" />
 
             <TextView
                 android:id="@+id/EvQuestionOne"
@@ -40,8 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_margin="8dp"
-                android:rating="0.0" />
+                android:layout_margin="8dp" />
 
             <TextView
                 android:id="@+id/EvQuestionTwo"
@@ -56,8 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_margin="8dp"
-                android:rating="0.0" />
+                android:layout_margin="8dp" />
 
             <TextView
                 android:id="@+id/EvQuestionThree"
@@ -72,8 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_margin="8dp"
-                android:rating="0.0" />
+                android:layout_margin="8dp" />
 
             <TextView
                 android:id="@+id/EvQuestionFour"
@@ -88,8 +95,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_margin="8dp"
-                android:rating="0.0" />
+                android:layout_margin="8dp" />
 
             <TextView
                 android:id="@+id/EvQuestionFive"
@@ -104,8 +110,25 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_margin="8dp" />
+
+            <TextView
+                android:id="@+id/commentsTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                android:rating="0.0" />
+                android:text="@string/evaluation_comment"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/commentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:lines="5"
+                android:maxLines="8" />
 
             <Button
                 android:id="@+id/evaluationSendBtn"

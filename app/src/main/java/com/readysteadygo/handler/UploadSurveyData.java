@@ -76,6 +76,7 @@ public class UploadSurveyData implements AsynchResponse{
             params.add(new BasicNameValuePair("answerThree", String.valueOf(survey.getAnswer3())));
             params.add(new BasicNameValuePair("answerFour", String.valueOf(survey.getAnswer4())));
             params.add(new BasicNameValuePair("answerFive", String.valueOf(survey.getAnswer5())));
+            params.add(new BasicNameValuePair("comment", survey.getComment()));
 
             httpPost.setEntity(new UrlEncodedFormEntity(params));
 
